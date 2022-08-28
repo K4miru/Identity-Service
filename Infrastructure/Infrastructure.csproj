@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Pigsty\Pigsty.Databases\Pigsty.Databases.csproj" />
+    <ProjectReference Include="..\..\Pigsty\Pigsty.Documentation\Pigsty.Documentation.csproj" />
+    <ProjectReference Include="..\..\Pigsty\Pigsty.HealthChecks\Pigsty.HealthChecks.csproj" />
+    <ProjectReference Include="..\Application\Application.csproj" />
+  </ItemGroup>
+
 </Project>

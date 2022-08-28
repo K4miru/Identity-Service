@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{AFA247C1-C371-4EC8-B0A9-6D8C01583D55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{AFA247C1-C371-4EC8-B0A9-6D8C01583D55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{F6DA98F3-5FFD-4ED4-8899-D12988768F72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{F6DA98F3-5FFD-4ED4-8899-D12988768F72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{5DBBB157-95DA-4A8E-BD57-649B17A6879E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{5DBBB157-95DA-4A8E-BD57-649B17A6879E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{4F5AF0B5-1267-46E9-8707-652BAAFDF2AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{4F5AF0B5-1267-46E9-8707-652BAAFDF2AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pigsty.Domain", "..\Pigsty\Pigsty.Domain\Pigsty.Domain.csproj", "{10B410AF-0C4F-4CC0-AFE7-E16EE57144AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pigsty.CQRS", "..\Pigsty\Pigsty.CQRS\Pigsty.CQRS.csproj", "{2F2B269C-D36F-410D-94E3-F0ACAF2DEF7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pigsty.Databases", "..\Pigsty\Pigsty.Databases\Pigsty.Databases.csproj", "{BF667AF7-30F1-4C9B-966D-C749FFC966E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pigsty.Documentation", "..\Pigsty\Pigsty.Documentation\Pigsty.Documentation.csproj", "{FA60EEA3-45F0-4309-94E3-EB81A8C128A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pigsty.HealthChecks", "..\Pigsty\Pigsty.HealthChecks\Pigsty.HealthChecks.csproj", "{8BAE8E4A-9778-443E-92F9-BE55DB4230A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{4F5AF0B5-1267-46E9-8707-652BAAFDF2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F5AF0B5-1267-46E9-8707-652BAAFDF2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F5AF0B5-1267-46E9-8707-652BAAFDF2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B410AF-0C4F-4CC0-AFE7-E16EE57144AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B410AF-0C4F-4CC0-AFE7-E16EE57144AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B410AF-0C4F-4CC0-AFE7-E16EE57144AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B410AF-0C4F-4CC0-AFE7-E16EE57144AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2B269C-D36F-410D-94E3-F0ACAF2DEF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2B269C-D36F-410D-94E3-F0ACAF2DEF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2B269C-D36F-410D-94E3-F0ACAF2DEF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2B269C-D36F-410D-94E3-F0ACAF2DEF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF667AF7-30F1-4C9B-966D-C749FFC966E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF667AF7-30F1-4C9B-966D-C749FFC966E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF667AF7-30F1-4C9B-966D-C749FFC966E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF667AF7-30F1-4C9B-966D-C749FFC966E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA60EEA3-45F0-4309-94E3-EB81A8C128A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA60EEA3-45F0-4309-94E3-EB81A8C128A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA60EEA3-45F0-4309-94E3-EB81A8C128A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA60EEA3-45F0-4309-94E3-EB81A8C128A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAE8E4A-9778-443E-92F9-BE55DB4230A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAE8E4A-9778-443E-92F9-BE55DB4230A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAE8E4A-9778-443E-92F9-BE55DB4230A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAE8E4A-9778-443E-92F9-BE55DB4230A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
